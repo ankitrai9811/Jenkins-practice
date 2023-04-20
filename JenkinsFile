@@ -25,6 +25,12 @@ pipeline{
             }
             
             }
+              stage("E"){
+            steps{
+                echo "========executing E========"
+            }
+            
+            }
         }
     post{
         always{
